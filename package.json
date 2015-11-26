@@ -1,0 +1,33 @@
+{
+  "name": "nodebackend",
+  "version": "1.0.0",
+  "description": "Node js backend for the Ayria platform",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "express": "^4.13.3",
+    "grid-fs": "^0.1.2",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^4.2.8",
+    "morgan": "^1.6.1",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyriaNP/NodeBackend.git"
+  },
+  "author": "Sokie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyriaNP/NodeBackend/issues"
+  },
+  "homepage": "https://github.com/AyriaNP/NodeBackend#readme"
+}
