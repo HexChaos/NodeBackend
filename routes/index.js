@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res) {
   //TODO redirect to something
-  res.render('index', { title: 'Express' });
+  res.send("Homepage");
 });
 
 module.exports = router;
